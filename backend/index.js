@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
 
 app.get('/data', (req, res) => {
     data = JSON.parse(fs.readFileSync('data.json'));
+    console.log(req.params)
     res.send(data);
 });
 
