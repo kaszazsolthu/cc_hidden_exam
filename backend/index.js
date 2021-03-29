@@ -5,6 +5,7 @@ const app = express();
 const port = 3023;
 
 const cors = require('cors');
+app.use(cors());
 
 app.use(bodyParser.urlencoded({
     extended: false
@@ -16,7 +17,6 @@ app.get('/', (req, res) => {
 
 app.get('/data', (req, res) => {
     data = JSON.parse(fs.readFileSync('data.json'));
-    console.log(req.params)
     res.send(data);
 });
 
