@@ -1,0 +1,9 @@
+[
+	{"shape": "kerek", "weight": 30, "complete": true, "color": "barna", "production_year": 2020, "contains_liqueur": false},
+	{"shape": "szögletes", "weight": 20, "complete": false, "color": "white", "production_year": 2021, "contains_liqueur": false},
+	{"shape": "szögletes", "weight": 40, "complete": false, "color": "barna", "production_year": 2021, "contains_liqueur": true},
+	{"shape": "hosszú", "weight": 50, "complete": true, "color": "fehér", "production_year": 2019, "contains_liqueur": false},
+	{"shape": "rövid", "weight": 10, "complete": true, "color": "barna", "production_year": 2020, "contains_liqueur": false},
+	{"shape": "gömbölyű", "weight": 25, "complete": false, "color": "fehér", "production_year": 2021, "contains_liqueur": false},
+	{"shape": "lapos", "weight": 10, "complete": true, "color": "barna", "production_year": 2019, "contains_liqueur": true}
+]
